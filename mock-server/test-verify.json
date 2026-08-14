@@ -1,0 +1,17 @@
+{
+    "message": {
+        "type": "tool-calls",
+        "toolCalls": [
+            {
+                "id": "c1",
+                "function": {
+                    "name": "verify_customer",
+                    "arguments": {
+                        "account_id": "ACC-88392",
+                        "verification_code": "1234"
+                    }
+                }
+            }
+        ]
+    }
+}
